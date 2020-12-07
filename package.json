@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint",
-    "deploy": "gh-pages -d dist"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -23,6 +23,7 @@
     "fibers": "^5.0.0",
     "gh-pages": "^3.1.0",
     "prettier": "^2.1.2",
+    "push-dir": "^0.4.1",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0"
   }
